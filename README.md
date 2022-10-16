@@ -114,9 +114,15 @@
 <br><br>
 
 #### 3) Map_server
+- SLAM시 맵을 저장한 위치 파일로 경로를 바꿔준다.
+```
+  <arg name="map_file" default="$(find kobuki_navigation)/maps/map.yaml"/>
+```
 
-
-
+- carto_map 
+```
+  <arg name="map_file" default="$(find kobuki_navigation)/carto_map/map.yaml"/>
+```
 
 
 <br><br><br><br>
