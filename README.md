@@ -68,14 +68,15 @@ $ cd ~/kobuki_ws && catkin_make
 
 :computer: Desktop
 ```
-$ 
+$ roscore
 ```
 
+<br>
 
-
-
-
-
+:strawberry: Raspberry Pi
+```
+$ roslaunch kobuki_node minimal.launch
+```
 
 
 
