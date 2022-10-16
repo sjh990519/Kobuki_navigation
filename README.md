@@ -332,7 +332,7 @@ https://user-images.githubusercontent.com/94280596/196049485-447e2f26-0bee-447a-
 <br><br>
 
 #### :robot: 실제 화면
-
+#### YOUTUBE : https://youtu.be/Cn7BN1utXQo
 https://user-images.githubusercontent.com/94280596/196050830-876b4808-b9ac-4a17-89f1-f221c536ba0b.mp4
 
 
