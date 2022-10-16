@@ -26,19 +26,18 @@
 - 로봇으로는 *kobuki*를 사용하고, 센서로는 *LDS-01*를 사용하였다.
 - 네비게이션 실습 진행 시 SLAM 실습 때 사용한 *지도*를 사용할 예정이다. 
 
+<br>
 
-
-<br><br>
-
-
-
-### :wrench: 패키지 설치
+#### :wrench: 패키지 설치
 - **kobuki_tf**
 - **navigation**
 - **move_base**
 - **amcl**
 - **map_server**
 
+<br>
+- **"kobuki_node.launch", "hls_lfcd_lds_driver.launch" ** Rapsbarry Pi 에서 진행한다.
+- 위 두개를 제외한 모든 런치 파일의 실행은 데스크톱에서 진행한다.
 
 
 
