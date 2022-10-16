@@ -95,6 +95,34 @@
 
 <br><br><br>
 
+### :pushpin: 런치 파일 세부 설명
+
+#### 1) kobuki model
+- kobuki_description 패키지에서 kobuki_stanalone.urdf 의 로봇 3D 모델을 불러오고, 
+  robot_state_publisher 를 통해 조인트 정보와 같은 **"로봇 상태"**를 상대 위치 변환인 tf로 발행하게 된다.
+  이 과정이 있기에 Rviz 에서 로봇의 3차원 모델을 볼 수 있게 된다.
+  
+<br>
+
+#### 2) sensor
+- 거북이에 장착되어 있는 센서를 구동하기 위한 구문으로 **"frame_id"** 파라미터를 **"base_scan"** 으로 변환시켜 실행시키도록 한다.
+  
+<br>
+
+
+#### 3) tf
+- 오도메트리부터 센서 위치까지의 상태 위치 변환 **( odom -> base_footprint -> base_link -> base_scan )**
+  정보를 **"tf"** 형태로 발행하는 kobuki_tf를 함께 실행해야 한다.
+
+<br>
+
+
+
+
+
+
+<br><br><br>
+
 ### :pencil2: 수정 내용
 
 
