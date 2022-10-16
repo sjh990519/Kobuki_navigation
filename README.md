@@ -28,8 +28,8 @@
 
 <br>
 
-- **"kobuki_node", "hls_lfcd_lds_driver"** 런치파일은 **Rapsbarry Pi** 에서 진행한다.
-- 위 두개를 제외한 모든 런치 파일의 실행은 **데스크톱**에서 진행한다.
+- **"kobuki_node", "hls_lfcd_lds_driver"** 런치파일은 **"Rapsbarry Pi"** 에서 진행한다.
+- 위 두개를 제외한 모든 런치 파일의 실행은 **"데스크톱"**에서 진행한다.
 
 <br>
 
@@ -39,6 +39,40 @@
 - **move_base**
 - **amcl**
 - **map_server**
+
+
+
+<br><br><br><br>
+
+## :two: Navigation 실행
+
+### :speech_balloon: 설명
+
+#### 1) 소스 다운로드 및 컴파일
+
+```
+$ cd ~/kobuki_ws/src
+```
+
+```
+$ git clone https://github.com/oroca/rosbook_kobuki.git
+```
+
+```
+$ cd ~/kobuki_ws && catkin_make
+```
+
+<br><br>
+
+#### 2) Kobuki_node 실행
+
+
+
+
+
+
+
+
 
 
 
