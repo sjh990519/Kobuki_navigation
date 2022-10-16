@@ -33,7 +33,7 @@
 
 
 ### :wrench: 패키지 설치
-- **kobuki_tf **
+- **kobuki_tf**
 - **navigation**
 - **move_base**
 - **amcl**
