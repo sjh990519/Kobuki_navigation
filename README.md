@@ -325,6 +325,7 @@ $ rosrun rviz rviz -d `rospack find kobuki_navigation`/rviz/kobuki_nav.rviz
 <br><br>
 
 #### :camera: Rviz 화면
+#### YOUTUBE : https://youtu.be/9GqPcyeN4jQ
 https://user-images.githubusercontent.com/94280596/196049485-447e2f26-0bee-447a-8df4-e67ba4d139e6.mp4
 
 
