@@ -96,8 +96,22 @@
 <br><br><br>
 
 ### :green_book: 수정
-#### 수정 내용
-- Sensor 값을 뺀다. (센서는 라즈베리파이에서 실행)
+
+
+#### 1) kobuki_model
+
+##### 기존의 xacro.py -> xacro 로 바꾼다. 
+```
+<arg name="urdf_file" default="$(find xacro)/xacro '$(find kobuki_description)/urdf/kobuki_standalone.urdf.xacro'"/>
+```
+
+<br><br>
+
+#### 2) sensor
+
+
+
+
 
 
 
