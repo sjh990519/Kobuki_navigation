@@ -1,7 +1,7 @@
 # Kobuki_navigation
 
 <img
-  src = "(https://user-images.githubusercontent.com/94280596/196031105-8ef81310-e586-401d-b083-aa7039b1802c.png)"
+  src = "https://user-images.githubusercontent.com/94280596/196031105-8ef81310-e586-401d-b083-aa7039b1802c.png"
   width = "300"
   height = "300"
 />
