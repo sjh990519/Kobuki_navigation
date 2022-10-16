@@ -320,15 +320,17 @@ $ rosrun rviz rviz -d `rospack find kobuki_navigation`/rviz/kobuki_nav.rviz
 
 <br><br><br>
 
-### :smile: 실행 화면 
+### :smile: 실행 화면
+
+---
+
+#### Rviz 화면
+https://user-images.githubusercontent.com/94280596/196049485-447e2f26-0bee-447a-8df4-e67ba4d139e6.mp4
 
 
+<br><br>
 
-
-
-
-
-
+#### 실제 화면
 
 
 
