@@ -64,7 +64,7 @@ $ cd ~/kobuki_ws && catkin_make
 
 <br><br>
 
-#### 2) Kobuki_node 실행
+#### 2) Kobuki_node 및 라이다 센서 실행
 
 :computer: Desktop
 ```
@@ -78,11 +78,18 @@ $ roscore
 $ roslaunch kobuki_node minimal.launch
 ```
 
+```
+$ roslaunch hls_lfcd_lds_driver hlds_laser.launch
+```
 
+<br><br>
 
+#### 3) Kobuki_navigation 실행
 
-
-
+:computer: Desktop
+```
+$ roslaunch kobuki_navigation kobuki_navigation.launch
+```
 
 
 
