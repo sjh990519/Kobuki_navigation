@@ -96,7 +96,7 @@
 <br><br><br>
 
 ### :pushpin: 런치 파일 세부 설명
-
+---
 #### 1) kobuki model
 - kobuki_description 패키지에서 kobuki_stanalone.urdf 의 로봇 3D 모델을 불러오고, 
   robot_state_publisher 를 통해 조인트 정보와 같은 **"로봇 상태"**를 상대 위치 변환인 tf로 발행하게 된다.
