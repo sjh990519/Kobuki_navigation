@@ -46,8 +46,54 @@
 
 #### :paperclip: 기존의 launch 파일을 실행 시 Error가 난다. 필요한 부분을 나의 로봇에 맞게 수정해야 한다.
 
+<br><br>
 
+### :blue_book: 원본 [ kobuki_navigation.launch ]
+```
+<launch>
+  <!-- kobuki model -->
+  <arg name="urdf_file"
+    default="$(find xacro)/xacro.py '$(find kobuki_description)/urdf/kobuki_standalone.urdf.xacro'" />
+  <param name="robot_description" command="$(arg urdf_file)" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="publish_frequency" type="double" value="5.0" />
+  </node>
 
+  <!-- sensor -->
+  <node pkg="urg_node" type="urg_node" name="kobuki_urg_node" output="screen">
+    <param name="frame_id" value="base_scan" />
+  </node>
+
+  <!-- tf -->
+  <node pkg="kobuki_tf" type="kobuki_tf" name="kobuki_tf" output="screen">
+  </node>
+
+  <!-- Map server -->
+  <arg name="map_file" default="$(find kobuki_navigation)/maps/map.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)">
+  </node>
+
+  <!-- AMCL -->
+  <include file="$(find kobuki_navigation)/launch/amcl.launch.xml"/>
+
+  <!-- move_base -->  
+  <arg name="cmd_vel_topic" default="/mobile_base/commands/velocity" />
+  <arg name="odom_topic" default="odom" />
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find kobuki_navigation)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find kobuki_navigation)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find kobuki_navigation)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find kobuki_navigation)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find kobuki_navigation)/param/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find kobuki_navigation)/param/move_base_params.yaml" command="load" />
+    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
+    <remap from="odom" to="$(arg odom_topic)"/>
+  </node>
+
+</launch>
+
+[출처] 로봇 운영체제 강좌: 내비게이션 실습편 (오픈소스 소프트웨어 & 하드웨어: 로봇 기술 공유 카페 (오로카)) | 작성자 표윤석
+```
 
 <br><br><br><br>
 
