@@ -275,11 +275,47 @@ $ roslaunch hls_lfcd_lds_driver hlds_laser.launch
 <br><br>
 
 #### 3) Kobuki_navigation 실행
+- 복수의 런치 파일로 구성되어 있어야 한다.
+- 기본적으로 robot_model, sensor, tf, Map_server, amcl, move_base 등으로 구성되어 있다.
 
 :computer: Desktop
 ```
 $ roslaunch kobuki_navigation kobuki_navigation.launch
 ```
+
+
+<br><br>
+
+#### 4) RViz 실행
+- 
+
+:computer: Desktop
+```
+$ rosrun rviz rviz -d `rospack find kobuki_navigation`/rviz/kobuki_nav.rviz
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
