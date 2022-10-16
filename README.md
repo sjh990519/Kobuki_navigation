@@ -97,7 +97,7 @@
 
 ### :green_book: 수정
 - 수정 내용
-  1) Sensor 값을 뺀다 &nasp; : &nasp; 라즈베리파이에서 실행 하기 때문
+  1) Sensor 값을 뺀다 　 : 　 라즈베리파이에서 실행 하기 때문
 
 
 <br><br><br><br>
