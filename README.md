@@ -119,9 +119,9 @@
   <arg name="map_file" default="$(find kobuki_navigation)/carto_map/map.yaml"/>
 ```
 
-<br><br><br><br>
+<br><br>
 
-### :green_book: 수정본
+### :green_book: [ kobuki_navigation.launch ] 수정본
 ```
 <launch>
 
