@@ -183,7 +183,7 @@ $ cd ~/kobuki_ws/src/rosbook_kobuki/kobuki_navigation/param
 
 #### :memo:  local_costmap_params.yaml 
 #### :memo:  global_costmap_params.yaml  
-- global_frame을 /map -> map 으로 바꿔준다.
+- global_frame을 **"/map"** -> **"map"** 으로 바꿔준다.
 
 
 <br><br><br><br>
