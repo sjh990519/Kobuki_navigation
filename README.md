@@ -40,11 +40,18 @@
 - **amcl**
 - **map_server**
 
+<br><br><br><br>
+
+## :two: Navigation 런치 파일 수정
+
+#### 기존의 launch 파일을 실행 시 Error가 난다. 필요한 부분을 나의 로봇에 맞게 수정해야 한다.
+
+
 
 
 <br><br><br><br>
 
-## :two: Navigation 실행
+## :three: Navigation 실행
 
 ### :speech_balloon: 설명
 
@@ -90,11 +97,6 @@ $ roslaunch hls_lfcd_lds_driver hlds_laser.launch
 ```
 $ roslaunch kobuki_navigation kobuki_navigation.launch
 ```
-
-
-
-
-
 
 
 
