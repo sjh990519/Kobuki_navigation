@@ -100,7 +100,7 @@
 
 #### 1) kobuki_model
 
-##### 기존의 xacro.py -> xacro 로 바꾼다. 
+- 기존의 xacro.py -> xacro 로 바꾼다. 
 ```
 <arg name="urdf_file" default="$(find xacro)/xacro '$(find kobuki_description)/urdf/kobuki_standalone.urdf.xacro'"/>
 ```
@@ -108,10 +108,12 @@
 <br><br>
 
 #### 2) sensor
+- 센서 값은 비워둔다. (라즈베리파이 에서 실행하기 때문)
 
 
+<br><br>
 
-
+#### 3) Map_server
 
 
 
