@@ -1,7 +1,10 @@
 # Kobuki_navigation
-![Screenshot from 2022-10-16 19-47-43](https://user-images.githubusercontent.com/94280596/196031105-8ef81310-e586-401d-b083-aa7039b1802c.png)
 
-
+<img
+  src = "(https://user-images.githubusercontent.com/94280596/196031105-8ef81310-e586-401d-b083-aa7039b1802c.png)"
+  width = "300"
+  height = "300"
+/>
 
 
 <br><br><br><br>
