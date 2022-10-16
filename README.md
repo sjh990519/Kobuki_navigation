@@ -174,12 +174,15 @@
 <br><br><br><br>
 
 ### :speaker: param 수정
-####  - Ros 버전이 **melodic** or **noetic** 일 때 옛날버전과 실행 방법이 달라 추가 변경이 필요하다.
+#### Ros 버전이 **melodic** or **noetic** 일 때 옛날버전과 실행 방법이 달라 추가 변경이 필요하다.
+```
+$ cd ~/kobuki_ws/src/rosbook_kobuki/kobuki_navigation/param
+```
 
+<br>
 
-
-
-
+#### :scroll: local_costmap_params.yaml
+- global_frame을 /map -> map 으
 
 
 
