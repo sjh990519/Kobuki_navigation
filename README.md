@@ -171,7 +171,7 @@
 </launch>
 ```
 
-<br><br><br><br>
+<br><br>
 
 ### :speaker: param 수정
 #### Ros 버전이 **melodic** or **noetic** 일 때 옛날버전과 실행 방법이 달라 추가 변경이 필요하다.
@@ -186,7 +186,7 @@ $ cd ~/kobuki_ws/src/rosbook_kobuki/kobuki_navigation/param
 - global_frame을 **"/map"** -> **"map"** 으로 바꿔준다.
 
 
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 ## :three: Navigation 실행
 
