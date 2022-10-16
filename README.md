@@ -66,8 +66,10 @@ $ cd ~/kobuki_ws && catkin_make
 
 #### 2) Kobuki_node 실행
 
-
-
+:computer: Desktop
+```
+$ 
+```
 
 
 
