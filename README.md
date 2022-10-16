@@ -117,7 +117,25 @@
 <br>
 
 
+#### 4) Map_server
+- kobuki_navigation/maps/floder에 저장된 지도 정보 **(map.yaml)** 를 
+  불러와서 **map_server** 노드에 의해 토픽 형태로 지도가 발행된다.
 
+<br>
+
+
+#### 5) AMCL (Adaptive)
+- AMCL 관련하여 acml 노드를 실행시키며, 관련 파라미터를 설정한다.
+
+<br>
+
+
+#### 6) moev_base
+- 모션 계획에 필요한 **"costmap"** 관련 파라미터와 로봇에게 이동 속도 명령을 넘겨주는 **"base_local_planner"** 
+  에 대한 설정 파라미터, 모션 계획을 총괄적으로 담당하는 move_base의 파라미터를 설정한다. 
+
+
+<br>
 
 
 
